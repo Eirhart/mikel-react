@@ -27,12 +27,12 @@ const Content = ({ show, setShow, showTwo, setShowTwo }) => {
             transition={{duration: 0.5}}
             >
                 <div className='desc'>
-                <ReactPlayer
-                url="https://www.youtube.com/watch?v=g6nHdBQM8XY&feature=youtu.be"
-                light={true}
-                className="video"
-                width={width > 768 ? 300 : 360}
-                />
+                    <ReactPlayer
+                    url="https://www.youtube.com/watch?v=g6nHdBQM8XY&feature=youtu.be"
+                    light={true}
+                    className="video"
+                    width={width > 768 ? 300 : 360}
+                    />
                     <h3>Company Introduction</h3>
                     <p>Gives you details about Atomy</p>
                 </div>
